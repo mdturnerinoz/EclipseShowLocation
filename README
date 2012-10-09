@@ -1,0 +1,20 @@
+The Eclipse "-showlocation" startup parameter causes the current location of the workspace to be displayed in the title bar (status bar) of the Eclipse window.
+
+The "-showlocation" option can either be specified on the command line when Eclipse is started or in the eclipse.ini file (which resides where the eclipse binary has been installed).
+
+Command Line
+eclipse -showlocation
+
+.eclipse.ini (in the same directory as the eclipse (eclipse.exe windows) binary resides)
+
+Examples:
+
+Windows
+c:\Program Files\eclipse\.eclipse.ini
+
+Linux
+/usr/local/eclipse/.eclipse.ini
+~/.eclipse.ini
+
+Mac
+/Applications/eclipse/.eclipse.ini
