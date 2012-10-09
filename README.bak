@@ -7,31 +7,7 @@ eclipse -showlocation
 
 .eclipse.ini (in the same directory as the eclipse (eclipse.exe windows) binary resides)
 
-Example eclipse.ini (note the fist line):
-
--showlocation
--startup
-plugins/org.eclipse.equinox.launcher_1.2.0.v20110502.jar
---launcher.library
-plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.1.100.v20110502
--product
-org.eclipse.epp.package.java.product
---launcher.defaultAction
-openFile
---launcher.XXMaxPermSize
-256M
--showsplash
-org.eclipse.platform
---launcher.XXMaxPermSize
-256m
---launcher.defaultAction
-openFile
--vmargs
--Dosgi.requiredJavaVersion=1.5
--Xms40m
--Xmx384m
-
-Example eclipse.ini locations by OS:
+Examples:
 
 Windows
 c:\Program Files\eclipse\.eclipse.ini
