@@ -7,7 +7,7 @@ eclipse -showlocation
 
 .eclipse.ini (in the same directory as the eclipse (eclipse.exe windows) binary resides)
 
-Example eclipse.ini (note the fist line):
+Example eclipse.ini (note the fisrt linecontaining "-showlocation")):
 
 -showlocation
 -startup
